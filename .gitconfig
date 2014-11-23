@@ -1,0 +1,32 @@
+[user]
+	name = yskm
+	email = y.morita0216@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	quotepath = false
+[color]
+	ui = true
+[alias]
+	b = branch
+	ba = branch -a
+	br = branch -r
+	cam = commit -am
+	cm = commit -m
+	co = checkout
+	cod = checkout develop
+	com = checkout master
+	cow = checkout working
+	dfh = diff HEAD
+	dfs = diff --staged
+	dfw = diff --word-diff
+	dfws = diff --word-diff --staged 
+	lo = log --oneline -15
+	ls = log --stat -5
+	lsp = log --stat -p -5
+	mnf = merge --no-ff
+	rs = remote show
+	st = status
+[pager]
+	#log = diff-highlight | less
+	#show = diff-highlight | less
+	#diff = diff-highlight | less
