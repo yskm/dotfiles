@@ -1,0 +1,24 @@
+'editor':
+  'fontFamily': 'Source Code Pro'
+  'invisibles': {}
+  'preferredLineLength': 1000
+  'showIndentGuide': true
+  'softTabs': false
+  'fontSize': 11
+  'tabLength': 4
+'core':
+  'disabledPackages': [
+    'whitespace'
+  ]
+  'themes': [
+    'atom-dark-ui'
+    'sunburst'
+  ]
+'exception-reporting':
+  'userId': 'ae427bd8-24d5-ad54-180a-184bc0c0b964'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '8e9c0d737a61f03aeff59d961d334f2011847c65'
+'autocomplete-plus': {}
+'linter': {}
