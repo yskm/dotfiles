@@ -40,17 +40,17 @@
   }
 }
 
-.editor {
-  .is-focused {
-    .selection .region {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    .line-number.cursor-line-no-selection, .line.cursor-line {
-      background-color: #000000;
-    }
+.editor.is-focused {
+  .selection .region {
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
+  .line-number.cursor-line-no-selection, .line.cursor-line {
+    background-color: #000000;
+  }
+}
+
+atom-text-editor {
   .comment {
     font-style: normal;
   }
@@ -68,5 +68,3 @@
     color: #a11f1f;
   }
 }
-
-
