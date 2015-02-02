@@ -15,3 +15,6 @@
       "atom-dark-ui"
       "sunburst"
     ]
+  linter: {}
+  welcome:
+    showOnStartup: false
