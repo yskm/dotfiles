@@ -83,3 +83,6 @@ if [ -e ~/.zshlocal ]; then
   source ~/.zshlocal
 fi
 
+### golang
+export GOPATH="$HOME/.golang"
+export PATH="$HOME/.golang/bin:$PATH"
