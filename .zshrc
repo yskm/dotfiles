@@ -66,7 +66,12 @@ alias fn='find . -name'
 alias h='history 30'
 alias cleanup='find . -type f -name "*.DS_Store" -ls -delete'
 
+alias cdv='cd $(vagrant global-status | grep -e "^[a-z0-9]\{7\}" | tr -s " " | cut -d" " -f 5 | peco)'
+
+alias http='python -m SimpleHTTPServer'
+
 alias -g L='| less'
+alias -g X='| xargs'
 alias -g XG='| xargs grep'
 
 ## other
