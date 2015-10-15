@@ -3,13 +3,14 @@
     fontFamily: "Source Code Pro"
     fontSize: 11
     showIndentGuide: true
-    preferredLineLength: 1000
     tabLength: 4
     useShadowDOM: false
     invisibles: {}
+    softWrap: true
   core:
     disabledPackages: [
       "whitespace"
+      "Remote-FTP"
     ]
     themes: [
       "atom-dark-ui"
