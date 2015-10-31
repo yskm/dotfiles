@@ -88,6 +88,9 @@ if [ -e ~/.zshlocal ]; then
   source ~/.zshlocal
 fi
 
+### nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 ### golang
 export GOPATH="$HOME/.golang"
 export PATH="$HOME/.golang/bin:$PATH"
