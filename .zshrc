@@ -78,20 +78,20 @@ alias -g XG='| xargs grep'
 ## other
 
 ### rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init - zsh)"
 
 ### phpenv
-export PATH="$HOME/.phpenv/bin:$PATH"
-eval "$(phpenv init - zsh)"
+#export PATH="$HOME/.phpenv/bin:$PATH"
+#eval "$(phpenv init - zsh)"
 
 if [ -e ~/.zshlocal ]; then
   source ~/.zshlocal
 fi
 
 ### nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+#export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 ### golang
-export GOPATH="$HOME/.golang"
-export PATH="$HOME/.golang/bin:$PATH"
+#export GOPATH="$HOME/.golang"
+#export PATH="$HOME/.golang/bin:$PATH"
